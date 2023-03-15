@@ -1,0 +1,91 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0.2rem;
+    padding: 0;
+    font-family: 'Montserrat Alternates', 'Helvetica', sans-serif;
+}
+
+h1 {
+    font-size: 2.81rem;
+    text-align: center;
+    color: #ff6600;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+.navbuttonshome img {
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: contain;
+}
+
+.contactbuttons img {
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: contain;
+}
+
+.navbuttonscontent img {
+    width: 6.25rem;
+    height: 6.25rem;
+    object-fit: contain;
+}
+
+.navbuttonshome,.contactbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(1fr, 6.25rem));
+}
+
+.textbody {
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactbutton {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.navbuttonscontent {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        grid-template-rows: 1fr;
+        grid-template-columns: 20vw 60vw 20vw;
+    }
+    .contactbuttons{
+        grid-column-start: 2;
+    }
+    .navbuttonscontent {
+        grid-row-start: 1;
+        align-self: start;
+        flex-direction: column;
+    }
+    .textbody {
+        grid-column-start: 2;
+    }
+}
