@@ -12,6 +12,10 @@ h1 {
 	color: #ff6600;
 }
 
+p{
+	margin-top: 1rem;
+}
+
 .navbuttonshome img {
 	width: 12.5rem;
 	height 12.5rem;
@@ -73,7 +77,6 @@ h1 {
 		grid-column-start:2 ;
 	}
 	.navbuttonscontent {
-/*		grid-column-start: 1;*/
 		grid-row-start: 1;
 		align-self: start;
 		flex-direction: column;
