@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact page</title>
+    <script src="https://kit.fontawesome.com/ec5d1d8620.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
@@ -14,42 +15,43 @@
     <link rel="icon" href="images/codeicon.png" sizes="192x192">
     <link rel="shortcut icon" href="images/codeicon.png">
     <link rel="apple-touch-icon" href="images/codeicon.png">
+    <script defer src="js/index.js"></script>
 </head>
 <body>
     <h1>Contact</h1>
     <div class="container">
         <div class="contactbuttons">
-            <div>
+            <div  class = "largeContactButton mailIcon">
                 <a href="mailto:example@generic.com">
-                    <img src="images/email.png" alt="email">
+                    <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
                 </a>
             </div>
-            <div>
+            <div  class = "largeContactButton linkedinIcon">
                 <a href="tel:+00000000000">
-                    <img src="images/phone.png" alt="phone">
+                   <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
                 </a>
             </div>
-            <div>
+            <div  class = "largeContactButton githubIcon">
                 <a href="https://github.com/Phildallen" target="_blank">
-                    <img src="images/github.png" alt="github">
+                    <i class="fa-brands fa-github" style="color: #ffffff;"></i>
                 </a>
             </div>
         </div>
         <nav class="navbuttonscontent">
             <div>
-                <a href="index.html">
-                    <img src="images/letterh.png" alt="home">
-                </a>
+                <button onclick="window.location.href='index.html';" class="smallButton">
+                    <div class = "transition-element" id="smallHome"><p class="smallH">h</p></div>
+                </button>
             </div>
             <div>
-                <a href="indexabout.html">
-                    <img src="images/lettera.png" alt="about">
-                </a>
+                <button onclick="window.location.href='indexabout.html';" class="smallButton">
+                    <div class = "transition-element" id="smallAbout">a</div>
+                </button>
             </div>
             <div>
-                <a href="indexprojects.html">
-                    <img src="images/letterp.png" alt="projects">
-                </a>
+                <button onclick="window.location.href='indexprojects.html';" class="smallButton">
+                    <div class = "transition-element" id="smallProjects"><p class="smallP">p</p></div>
+                </button>
             </div>
         </nav>
     </div>

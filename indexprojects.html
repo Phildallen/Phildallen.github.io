@@ -11,9 +11,10 @@
     <meta name="author" content="Phil Allen">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="iimages/codeicon.png" sizes="192x192">
+    <link rel="icon" href="images/codeicon.png" sizes="192x192">
     <link rel="shortcut icon" href="images/codeicon.png">
     <link rel="apple-touch-icon" href="images/codeicon.png">
+    <script defer src="js/index.js"></script>
 <body>
     <h1>Projects page</h1>
     <div class="container">
@@ -65,19 +66,19 @@
         </article>
         <nav class="navbuttonscontent">
             <div>
-                <a href="index.html">
-                    <img src="images/letterh.png" alt="home">
-                </a>
+                <button onclick="window.location.href='index.html';" class="smallButton">
+                    <div class = "transition-element" id="smallHome"><p class="smallH">h</p></div>
+                </button>
             </div>
             <div>
-                <a href="indexabout.html">
-                    <img src="images/lettera.png" alt="about">
-                </a>
+                <button onclick="window.location.href='indexabout.html';" class="smallButton">
+                    <div class = "transition-element" id="smallAbout">a</div>
+                </button>
             </div>
             <div>
-                <a href="indexcontact.html">
-                    <img src="images/letterc.png" alt="contact">
-                </a>
+                <button onclick="window.location.href='indexcontact.html';" class="smallButton">
+                    <div class = "transition-element" id="smallContact">c</div>
+                </button>
             </div>
         </nav>
     </div>
