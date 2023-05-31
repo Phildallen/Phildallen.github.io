@@ -20,6 +20,9 @@ p {
 }
 
 .largeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 2vh;
   background-color: #ff6600;
   width: 20vh;
@@ -42,6 +45,9 @@ p {
 }
 
 .smallButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 0.75vh;
   background-color: #ff6600;
   width: 10vh;
@@ -68,8 +74,9 @@ p {
 }
 
 .largeContactButton {
-  padding-top: 2.5vh;
-  padding-left: 2.1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ff6600;
   width: 20vh;
   height: 20vh;
@@ -81,9 +88,9 @@ p {
   line-height: 0;
 }
 
-.linkedinIcon{
-  padding-left: 3vh;
-}
+/*.linkedinIcon{*/
+/*  padding-left: 3vh;*/
+/*}*/
 
 .navbuttonshome img, .contactbuttons img {
   width: auto;
