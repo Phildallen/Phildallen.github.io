@@ -23,7 +23,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2vh;
   background-color: #ff6600;
   width: 20vh;
   height: 20vh;
@@ -44,18 +43,19 @@ p {
   padding-bottom: 4vh;
 }
 
+.largeAC{
+  padding-bottom: 2vh;
+}
+
 .smallButton {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 0.75vh;
   background-color: #ff6600;
-  /*width: 10vh;*/
-  /*height: 10vh;*/
-  height: 8rem;
-  width: 8rem;
+  width: 12vh;
+  height: 12vh;
   border-radius: 50%;
-  font-size: 6.4rem;
+  font-size: 9.6vh;
   color: #ffffff;
   border-color: #ffffff;
   border-style: solid;
@@ -63,7 +63,7 @@ p {
 }
 
 .smallButtonText {
-  /*padding-bottom: 0.25vh;*/
+  padding-bottom: 0.75vh;
   font-size: 2.5vh;
 }
 
@@ -73,6 +73,10 @@ p {
 
 .smallP{
   padding-bottom: 2vh;
+}
+
+.smallAC{
+  padding-bottom: 0.75vh;
 }
 
 .largeContactButton {
@@ -96,18 +100,12 @@ p {
 object-fit: contain;
 }
 
-.navbuttonscontent img {
-  width: 6.25rem;
-  height: 6.25rem;
-  object-fit: contain;
-}
-
 .navbuttonshome, .contactbuttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5vh;
+  gap: 4vh;
 }
 
 .container {
@@ -119,6 +117,12 @@ object-fit: contain;
   grid-column-start: 1;
   display: flex;
   flex-direction: column;
+  line-height: 3vh;
+  font-size: 2.0vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+
 }
 
 .projects {
@@ -164,31 +168,5 @@ object-fit: contain;
   }
   .textbody {
     grid-column-start: 2;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  @media (max-height: 1000px) and (min-height: 600px) {
-    .smallButton {
-      height: 7rem;
-      width: 7rem;
-      font-size: 5.6rem;
-    }
-  }
-
-  @media (max-height: 699px) and (min-height: 600px) {
-    .smallButton {
-      height: 6rem;
-      width: 6rem;
-      font-size: 4.8rem;
-    }
-  }
-
-  @media (max-height: 599px) {
-    .smallButton {
-      height: 4rem;
-      width: 4rem;
-      font-size: 3.2rem;
-    }
   }
 }

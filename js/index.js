@@ -1,6 +1,6 @@
 const about = [
     '<p class="largeButtonText">about</p>',
-    '<p>a</p>'
+    '<p class="largeAC">a</p>'
 ]
 
 const projects = [
@@ -10,7 +10,7 @@ const projects = [
 
 const contact = [
     '<p class="largeButtonText">contact</p>',
-    '<p>c</p>'
+    '<p class="largeAC">c</p>'
 ]
 const smallHome = [
     '<p class="smallButtonText">home</p>',
@@ -22,11 +22,11 @@ const smallProjects = [
 ]
 const smallContact = [
     '<p class="smallButtonText">contact</p>',
-    '<p>c</p>'
+    '<p class="smallAC">c</p>'
 ]
 const smallAbout = [
     '<p class="smallButtonText">about</p>',
-    '<p>a</p>'
+    '<p class="smallAC">a</p>'
 ]
 
 let currentIndex = 0;
