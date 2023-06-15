@@ -113,16 +113,46 @@ object-fit: contain;
   grid-template-rows: repeat(auto-fit, minmax(1fr, 6.25rem));
 }
 
-.textbody {
+.about {
   grid-column-start: 1;
   display: flex;
   flex-direction: column;
+}
+
+.textbody {
   line-height: 3vh;
-  font-size: 2.0vh;
+  font-size: 2vh;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
 
+}
+
+.cv{
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 2vh;
+  color: #ff6600;
+}
+
+.cvButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6600;
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+  font-size: 2vh;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-style: solid;
+  line-height: 0;
+}
+
+a{
+  text-decoration: none;
 }
 
 .projectLink {
@@ -133,8 +163,6 @@ object-fit: contain;
 .projectCard{
   max-width: 450px;
   min-width: 450px;
-  /*padding-top: 2vh;*/
-  /*padding-bottom: 2vh;*/
   padding: 2vh;
   border-bottom: 2px solid #d3d3d3;
   display: flex;
@@ -144,6 +172,10 @@ object-fit: contain;
 
 h2{
   text-align: center;
+}
+
+img {
+  max-width: 400px;
 }
 
 .projects {
@@ -188,7 +220,7 @@ justify-content: center;
     align-self: start;
     flex-direction: column;
   }
-  .textbody {
+  .about {
     grid-column-start: 2;
   }
 }
