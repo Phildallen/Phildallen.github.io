@@ -125,9 +125,31 @@ object-fit: contain;
 
 }
 
+.projectLink {
+  padding: 2vh;
+  color: #ff6600;
+}
+
+.projectCard{
+  max-width: 450px;
+  min-width: 450px;
+  /*padding-top: 2vh;*/
+  /*padding-bottom: 2vh;*/
+  padding: 2vh;
+  border-bottom: 2px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  text-align: center;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
+justify-content: center;
 }
 
 .contactbutton {
